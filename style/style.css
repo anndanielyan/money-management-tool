@@ -13,12 +13,13 @@ body {
   color: #333;
   line-height: 1.5;
   height: 100vh;
-  background: linear-gradient(to right, #353a5f, #cacfe3);
+  /* background: linear-gradient(#abb8a1, #efeadd); */
 }
 
 .headline {
   font-size: 4rem;
-  color: #cacfe3;
+  color: #5d6961;
+  font-style: italic;
   text-align: center;
   position: relative;
   top: 5rem;
@@ -37,18 +38,19 @@ body {
   font-size: 2rem;
   font-weight: 600;
   text-transform: uppercase;
+  font-style: italic;
   padding: 1.75rem 3.5rem;
   margin: 2rem;
-  background-color: #cbcfdf;
-  color: #444;
+  background-color: #889b7e;
+  color: #fff;
   border: none;
   border-radius: 10rem;
   cursor: pointer;
 }
 
 .btn:hover {
-  background: linear-gradient(to left, #353a5f, #cacfe3);
-  color: #cacfe3;
+  background: linear-gradient(to left, #889b7e, #b3c99d);
+  color: #fff;
 }
 
 @media (max-width: 42rem) {
