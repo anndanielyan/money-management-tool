@@ -1,0 +1,17 @@
+{
+  "env": {
+    "browser": true
+  },
+  "extends": "eslint:recommended",
+  "rules": {
+    "parserOptions": {
+      "sourceType": "module"
+    },
+    "code": ["error", 60],
+    "max": ["error", 150],
+    "skipBlankLines": true,
+    "no-unused-vars": "error",
+    "no-unused-expressions": "error",
+    "quotes": ["error", "single"]
+  }
+}
