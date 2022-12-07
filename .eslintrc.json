@@ -1,0 +1,14 @@
+{
+  "env": {
+    "browser": true
+  },
+  "extends": ["prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "max-len": ["error", { "code": 80 }],
+    "max-lines": ["error", 150],
+    "skipBlankLines": true,
+    "no-unused-vars": "error",
+    "quotes": ["error", "single"]
+  }
+}
